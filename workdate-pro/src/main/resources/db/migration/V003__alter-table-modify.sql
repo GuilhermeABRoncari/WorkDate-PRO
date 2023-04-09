@@ -1,0 +1,4 @@
+ALTER TABLE workdate_users
+MODIFY COLUMN client_id BIGINT,
+MODIFY COLUMN service_id BIGINT,
+MODIFY COLUMN schedule_id BIGINT;
